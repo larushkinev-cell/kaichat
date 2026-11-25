@@ -1,0 +1,16 @@
+# Сгенерировано scripts/build-backstage-catalog.py --write-catalog-info из фактов; руками не править.
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "kaichat"
+  description: "An application that lets you chat with AI language models, either running locally"
+  annotations:
+    github.com/project-slug: "larushkinev-cell/kaichat"
+    backstage.io/techdocs-ref: "url:https://github.com/larushkinev-cell/kaichat/tree/master"
+spec:
+  type: "website"
+  lifecycle: "production"
+  owner: "group:default/asguard"
+  system: "asguard"
